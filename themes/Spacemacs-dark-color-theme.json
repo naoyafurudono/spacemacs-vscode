@@ -404,6 +404,47 @@
       "settings": {
         "foreground": "#ce537a"
       }
+    },
+    {
+      "name": "Markdown header",
+      "scope": [
+        "markup.heading.markdown"
+      ],
+      "settings": {
+        "foreground": "#f8a6e67e",
+        "fontStyle": "bold underline"
+      }
+    },
+    {
+      "name": "Markdown link",
+      "scope": [
+        "meta.link.inline.markdown",
+      ],
+      "settings": {
+        "foreground": "#82a7b8",  // #2aa1ae
+      }
+    },
+    {
+      "name": "Markdown unnumbered list",
+      "scope": "markup.list.unnumbered.markdown",
+      "settings": {
+        "foreground": "#f7fae9",
+      }
+    },
+    {
+      "name": "Markdown unnumbered list",
+      "scope": "markup.list.numbered.markdown",
+      "settings": {
+        "foreground": "#e6f0b4",
+      }
+    },
+    {
+      "name": "Markdown image",
+      "scope": "meta.image.inline.markdown",
+      "settings": {
+        "foreground": "#82a7b8",
+        // "fontStyle": "bold"
+      }
     }
   ]
 }
